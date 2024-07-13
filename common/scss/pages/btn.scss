@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@use "../var";
+
+
+// btn01
+.btn01 {
+  width: 200px;
+
+  a {
+    padding: 15px 5px;
+    text-align: center;
+    display: block;
+    background: #FFF;
+    border: 1px solid #DBDBEE;
+    border-radius: 32px;
+    transition: 0.3s;
+  }
+}
+

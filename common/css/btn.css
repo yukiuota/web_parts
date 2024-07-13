@@ -1,0 +1,20 @@
+/* Scss Document */
+:root {
+  --main-color: #000;
+  --sub-color: #000;
+}
+
+/* Scss Document */
+.btn01 {
+  width: 200px;
+}
+.btn01 a {
+  padding: 15px 5px;
+  text-align: center;
+  display: block;
+  background: #FFF;
+  border: 1px solid #DBDBEE;
+  border-radius: 32px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}

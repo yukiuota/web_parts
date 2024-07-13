@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+// -------------------------------------------- //
+// ブレイクポイント指定
+$pc: 751px;
+$tab: 768px;
+$sp: 750px;
+
+// -------------------------------------------- //
+// 共通フォント
+
+// 共通font-size（PC）
+$main-font-size-pc: 16px;
+
+// 共通font-size（SP）
+$main-font-size-sp: 14px;
+
+// 共通font-family
+$main-font: YuMincho,
+/* Mac用 */
+'Yu Mincho',
+/* Windows用 */
+serif;
+
+$sub-font: YuMincho,
+/* Mac用 */
+'Yu Mincho',
+/* Windows用 */
+serif;
+
+// 共通font-weight
+$main-font-weight-pc: 400;
+$main-font-weight-sp: 400;
+
+// 共通font line-height
+$main-font-line-height-pc: 1;
+$main-font-line-height-sp: 1;
+
+// 共通font letter-spacing
+$main-font-letter-spacing: 0;
+
+// 共通font-color（body）
+$main-font-color: #000;
+
+// 共通font-color（リンク）
+$main-font-color-link: #000;
+
+// -------------------------------------------- //
+// .inner PC
+$inner-width-pc: 1030px;
+$inner-padding-pc: 0 15px;
+
+// .inner SP
+$inner-width-sp: 100%;
+$inner-padding-sp: 0 15px;
+
+// -------------------------------------------- //
+// アニメーション設定
+$speed: 750ms;
+$delay: 0.6s;
+
+// -------------------------------------------- //
+// 共通カラー
+:root{
+    --main-color: #000;
+    --sub-color: #000; 
+}
+// -------------------------------------------- //
